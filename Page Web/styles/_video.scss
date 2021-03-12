@@ -1,0 +1,16 @@
+.mVideo video {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    object-fit: contain;
+    z-index: -1;
+    display: flex;
+}
+
+@media all and (max-width: 1200px) {
+    .mVideo {
+        width: 100%;
+        height: auto;
+        background: none;
+    }
+}
