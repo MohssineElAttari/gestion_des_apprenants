@@ -81,6 +81,17 @@
   width: 100%;
   margin-top: 10px;
 }
+
+.co {
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  /* padding-top: 17px; */
+  border: 1px solid black;
+  margin-top: 9%;
+  padding: 17px;
+}
+
 .contactForm .inputBox input,
 .contactForm .inputBox textarea {
   width: 100%;

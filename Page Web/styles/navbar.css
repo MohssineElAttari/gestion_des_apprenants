@@ -1,8 +1,8 @@
+@charset "UTF-8";
 nav {
   background-color: #000;
   padding: 5px 60px;
 }
-
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -16,16 +16,13 @@ nav ul {
   -ms-flex-line-pack: center;
       align-content: center;
 }
-
 nav ul li {
   cursor: pointer;
   padding: 15px 0;
 }
-
 nav ul li:hover {
   color: #FFF;
 }
-
 nav ul li:nth-child(6) {
   background-color: #46B6E0;
   padding: 10px;
@@ -34,22 +31,18 @@ nav ul li:nth-child(6) {
   width: -moz-fit-content;
   width: fit-content;
   color: #FFF;
-  -webkit-transition: background-color .35s ease-in-out;
-  transition: background-color .35s ease-in-out;
+  -webkit-transition: background-color 0.35s ease-in-out;
+  transition: background-color 0.35s ease-in-out;
 }
-
 nav ul li:nth-child(6)::after {
   all: unset !important;
 }
-
 nav ul li:nth-child(6):hover {
   background-color: #186e8f;
 }
-
 nav ul li:nth-child(6):hover a {
   color: #FFF;
 }
-
 nav ul li.logo {
   margin-right: auto;
   font-size: 25px;
@@ -61,11 +54,9 @@ nav ul li.logo {
           user-select: none;
   color: #46B6E0;
 }
-
 nav ul li.logo span {
   color: white;
 }
-
 nav ul li.nav_links {
   width: auto;
   margin: 0 16px;
@@ -75,10 +66,9 @@ nav ul li.nav_links {
       -ms-flex-order: 3;
           order: 3;
 }
-
 nav ul li.nav_links:after {
   position: absolute;
-  content: '';
+  content: "";
   height: 2px;
   width: 0%;
   background: #46B6E0;
@@ -88,41 +78,33 @@ nav ul li.nav_links:after {
   -webkit-transition: all 0.2s cubic-bezier(0.15, 0.41, 0.82, 0.3);
   transition: all 0.2s cubic-bezier(0.15, 0.41, 0.82, 0.3);
 }
-
 nav ul li.nav_links:hover:after {
   width: 100%;
 }
-
 nav ul li a {
   color: white;
   text-decoration: none;
-  -webkit-transition: .4s;
-  transition: .4s;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
-
 nav ul li a i {
   width: 35px;
   height: 35px;
 }
-
 nav ul li:hover a {
   color: #46B6E0;
 }
-
 nav ul li i {
   font-size: 23px;
 }
-
 nav ul li.btn {
   display: none;
 }
-
 nav ul li.btn a {
   font-size: 35px;
 }
-
 nav ul li.btn.hide i:before {
-  content: '\f00d';
+  content: "";
 }
 
 @media all and (max-width: 900px) {
@@ -164,8 +146,8 @@ nav ul li.btn.hide i:before {
     height: 40px;
     font-size: 15px;
   }
+
   nav ul li.btn {
     display: block;
   }
-}
-/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=navbar.css.map */
