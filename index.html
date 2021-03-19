@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil</title>
-    <link rel="stylesheet" href="Page Web/styles/style.css">
+    <!-- <link rel="stylesheet" href="Page Web/styles/style.css"> -->
+    <link rel="stylesheet" href="Page Web/css/index.css">
     <script src="./Page Web/scripts/script.js"></script>
     <link rel="icon" href="../images/icons/baby-car.png" type="image/icon type">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,83 +18,131 @@
 <body>
     <!-- header -->
     <header>
-        
+
         <nav>
             <ul>
                 <li class="logo">Schol<span>ariz</span></li>
                 <li class="nav_links"><a href="#">Accueil</a></li>
                 <li class="nav_links"><a href="Page Web/pages/Notre_Ecole.html">Notre Ecole</a></li>
                 <li class="nav_links"><a href="Page Web/pages/Contactez_Nous.html">Contactez Nous</a></li>
-                <li class="nav_links but"><a href="Page Web/pages/Se_connecter.html">Se connecter</a></li>
+                <li class="nav_links but"><a href="Page Web/pages/Se_connecter.php">Se connecter</a></li>
                 <li class="btn"><a href="#"><i class="fa fa-bars"></i></a></li>
             </ul>
         </nav>
-        <div class="mVideo">
-            <video autoplay muted loop>
-                <source src="Page Web/pics/vid.mp4" type="video/mp4">
-                </video>
-        </div>
     </header>
     <!-- end header -->
     <!-- main -->
-    <div class="void"></div>
-        <div class="partuno">
-            <div class="parttwo">
-                <h1> Notre école</h1>
-                <p>
-                    Depuis sa création en 1982, l’Ecole SCHOLARIZ a œuvré pas à pas dans l’enseignement maternelle et primaire, avec engagement et passion, pour accompagner et voir briller plusieurs générations.</p>
-                    <p><br> Tout au long de ses années, une équipe pédagogique qualifiée et expérimentée propose à vos enfants une scolarité riche en activités valorisant leur implication, structurant leur personnalité par le plaisir d’apprendre dans un espace
-                        de vie agréable de la maternelle jusqu’aux portes du collège. A La Prairie, l’innovation pédagogique continue modélise un parcours académique pour nos élèves avec toutes les compétences et les valeurs qui feront d’eux les citoyens
-                        du Maroc de demain.
-                    </p>
+    <section class="section_one">
+        <div class="first-section">
+            <div class="picture">
+                <img src="./Page Web/pics/p.jpg" alt="first pic">
+                <div class="intro">
+                    <h1>MEET THE BEST TUTORING PLATFORM</h1>
+                    <button>More Infos</button>
                 </div>
-                <div class="parttree">
-                    <img src="Page Web/pics/pic.jpg" alt="picy">
-                    <div style="background-color: #46b7e0f1; z-index: 1;width: 750px;"></div>
-                </div>
+            </div>
+        </div>
+    </section>
 
+    <section class="section_two">
+        <h2 class="h2">CHECK OUR TOP COURSES</h2>
+        <main class="page-content">
+            <div class="card">
+                <div class="content">
+                    <h2 class="title">English Grammar</h2>
+                    <p class="copy">Check out this course made by our tutor Sarah Parker</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2 class="title">Vocabulary</h2>
+                    <p class="copy">Check out this course made by our tutor Sarah Parker</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2 class="title">Expository writing
+                    </h2>
+                    <p class="copy">Check out this course made by our tutor Sarah Parker</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+            <div class="card">
+                <div class="content">
+                    <h2 class="title">Calculus1
+                    </h2>
+                    <p class="copy">Check out this course made by our tutor Sarah Parker</p>
+                    <button class="btn">Read More</button>
+                </div>
+            </div>
+        </main>
+    </section>
+    <!-- second section--->
+
+    <section class="second_section">
+        <h2 class="h2" style="color: white;">FROM OUR BLOG</h2>
+        <div class="blog-card">
+            <div class="meta">
+                <div class="photo" style="background-image: url(./Page\ Web/pics/lap.jpg);"></div>
+                <ul class="details">
+                    <li class="author">Safae Baamel</li>
+                    <li class="date">Aug, 2019</li>
+                    <li class="tags">
+                        <ul>
+                            <li> Learn</a>
+                            </li>
+                            <li>Scratch</a>
+                            </li>
+                            <li>Algorithmics</a>
+                            </li>
+                            <li>Calculate</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="description">
+                <h1>Learning to Code</h1>
+                <h2>Opening a door to the future</h2>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="read-more">
+                    <a style="color: black;">Read More</a>
+                </p>
+            </div>
+        </div>
+        <div class="blog-card alt">
+            <div class="meta">
+                <div class="photo" style="background-image: url(./Page\ Web/pics/lap2.jpg);"></div>
+                <ul class="details">
+                    <li class="author">Mohssin Latari</a>
+                    </li>
+                    <li class="date">July, 2019</li>
+                    <li class="tags">
+                        <ul>
+                            <li>Learn</a>
+                            </li>
+                            <li>Analyse</a>
+                            </li>
+                            <li>Calculate</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="description">
+                <h1>Algebra</h1>
+                <h2>LOREM IPSUM dolorum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad eum dolorum architecto obcaecati enim dicta praesentium, quam nobis! Neque ad aliquam facilis numquam. Veritatis, sit.</p>
+                <p class="read-more">
+                    <a style="color: black;">Read More</a>
+                </p>
+            </div>
         </div>
 
 
-
-
-        <div class="main">
-            <h1>Check Our students Projects</h1>
-            <ul class="cards">
-              <li class="cards_item">
-                <div class="card">
-                  <div class="card_image"><img src="./Page Web/pics/picc.jpg"></div>
-                  <div class="card_content">
-                    <h2 class="card_title">Projet 1</h2>
-                    <p class="card_text">WEBSITE CREATION</p>
-                    <button class="btn card_btn">Read More</button>
-                  </div>
-                </div>
-              </li>
-              <li class="cards_item">
-                <div class="card">
-                  <div class="card_image"><img src="./Page Web/pics/picc.jpg"></div>
-                  <div class="card_content">
-                    <h2 class="card_title">Projet 2</h2>
-                    <p class="card_text">WEBSITE CREATION</p>
-                    <button class="btn card_btn">Read More</button>
-                  </div>
-                </div>
-              </li>    
-              <li class="cards_item">
-                <div class="card">
-                  <div class="card_image"><img src="./Page Web/pics/picc.jpg"></div>
-                  <div class="card_content">
-                    <h2 class="card_title">Projet 3</h2>
-                    <p class="card_text">WEBSITE CREATION</p>
-                    <button class="btn card_btn">Read More</button>
-                  </div>
-                </div>
-              </li>   
-            </ul>
-
-          </div>
-
+    </section>
 
     <!-- footer -->
     <footer>

@@ -6,35 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacter Nous</title>
-    <link rel="stylesheet" href="../styles/contacts.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="/Page Web/scripts/script.js"></script>
-    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="/Page Web/css/contacts.css">
     <link rel="icon" href="../images/icons/baby-car.png" type="image/icon type">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
     <!-- header -->
     <header>
-        <div class="backgroung-cover">
-            
-            <img src="../pics/pic.jpg" alt="" style=" height: 100%; width: 100%;" class="bg">
-        </div>
         <nav>
             <ul>
                 <li class="logo">Schol<span>ariz</span></li>
                 <li class="nav_links"><a href="../../index.html">Accueil</a></li>
-                <li class="nav_links"><a href="/Page Web/pages/Notre_Ecole.html">Notre Ecole</a></li>
-                <li class="nav_links"><a href="/Page Web/pages/Contactez_Nous.html">Contactez Nous</a></li>
-                <li class="nav_links"><a href="/Page Web/pages/Se_connecter.html">Se connecter</a></li>
+                <li class="nav_links"><a href="Notre_Ecole.html">Notre Ecole</a></li>
+                <li class="nav_links"><a href="Contactez_Nous.html">Contactez Nous</a></li>
+                <li class="nav_links"><a href="Se_connecter.php">Se connecter</a></li>
                 <li class="btn"><a href="#"><i class="fa fa-bars"></i></a></li>
             </ul>
         </nav>
     </header>
     <!-- end header -->
-    
-    <h1 class="co">Contacter Nous</h1>
+
+    <section class="section_one">
+        <div class="first-section">
+            <div class="picture">
+                <img src="../pics/p.jpg" alt="first pic">
+                <div class="intro">
+                    <h1 style="color: white; text-shadow: none;">Contacter Nous</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <main>
         <section class="contact">
             <div class="container">
@@ -83,7 +89,7 @@
                             <span>Your Message...</span>
                         </div>
                         <div class="inputBox">
-                            <input type="submit" onclick="verifymail()" value="Send">
+                            <input type="submit" value="Send">
                         </div>
                     </form>
                     <div id="error"></div>

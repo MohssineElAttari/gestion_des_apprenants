@@ -173,4 +173,3 @@ INNER JOIN groupe
 ON etudiant.ID_grp = groupe.ID_groupe AND groupe.professeur = "YOUNESS";
 
 
-
